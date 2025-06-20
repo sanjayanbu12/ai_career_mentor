@@ -1,7 +1,5 @@
 # AI Career Redirection Mentor
 
-**Participant:** Sanjay A
-
 ---
 
 ## 🚀 Project Objective
