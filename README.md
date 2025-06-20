@@ -158,6 +158,6 @@ For detailed documentation and design notes, see:
 
 ## Demo Video
 
-https://drive.google.com/drive/folders/11CN3RBl9I39qe6XVrfVmpIT_emi6Ezoe?usp=sharing
+[Demo Link (Google Drive)]:(https://drive.google.com/drive/folders/11CN3RBl9I39qe6XVrfVmpIT_emi6Ezoe?usp=sharing)
 
 ---
