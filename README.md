@@ -18,6 +18,8 @@ Build an agentic, AI-powered Career Redirection Mentor that helps students who f
 
 ---
 
+![alt text](Flowchart.png)
+
 ## 🏗️ Architecture Overview
 
 The application is built on a decoupled architecture:
