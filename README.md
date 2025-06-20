@@ -84,7 +84,7 @@ The core workflow is a pipeline of five AI agents, triggered when a user uploads
    ```
 5. Initialize the database schema and populate it with vectorized data:
    ```sh
-   python3 setup_database.py
+   python setup_database.py
    ```
 6. Start the backend server:
    ```sh
