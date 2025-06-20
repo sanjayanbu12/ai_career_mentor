@@ -1,0 +1,4 @@
+- ABC University Hackathon 2024: 1st Place, Best UI/UX Category.
+- GitHub Project "Portfolio Website": 150+ stars, positive feedback on design in issues.
+- Personal Blog on Medium: Article "Creating a Glassmorphism Effect in CSS" featured in a major design publication.
+- Taught a workshop on "Intro to React" for 20 junior students at university coding club.

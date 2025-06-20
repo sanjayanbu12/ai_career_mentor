@@ -1,0 +1,23 @@
+Candidate: Sanjay Anbazhagan
+Role: Junior Software Engineer
+Interviewer: Jane Smith, Senior Engineer
+
+Overall Impression:
+Sanjay is enthusiastic and clearly passionate about technology. His portfolio demonstrates a very strong eye for design and frontend implementation.
+
+Technical Feedback:
+- When asked to describe his projects, he did an excellent job.
+- Whiteboard coding session was a major challenge for him. He struggled to articulate his thought process for an algorithmic problem (finding cycles in a graph). He seemed nervous and his verbal communication became unclear under pressure.
+- His approach to the algorithm was brute-force and inefficient. He could not explain Big O notation for his own solution.
+
+Strengths:
+- Excellent portfolio and project presentation.
+- Deep knowledge of React hooks and component lifecycle.
+
+Areas for Improvement:
+- Fundamental data structures and algorithms.
+- Communicating technical thought process during problem-solving.
+- System design knowledge is very limited.
+
+Recommendation:
+Not a fit for this specific backend-heavy role. However, his frontend skills are impressive. He might be a great fit for a UI Engineer or Frontend Developer role. Consider re-evaluating for a different team.

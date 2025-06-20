@@ -1,0 +1,9 @@
+title,description,skills
+Technical Writer,"Creates clear and concise documentation, tutorials, and guides for software products. Perfect for those who excel at communication and explaining complex topics.","writing,documentation,api,markdown,git"
+QA Automation Engineer,"Designs and develops automated tests to ensure software quality and reliability. A great fit for those with a detail-oriented mindset and a knack for finding issues.","testing,selenium,python,qa,automation,cicd"
+Instructional Designer,"Designs and creates engaging learning materials and training programs for technical subjects, turning complex information into easy-to-understand content.","teaching,curriculum,elearning,training,pedagogy"
+DevOps Engineer,"Manages and automates the software development lifecycle, focusing on infrastructure, deployment pipelines, and reliability.","aws,docker,kubernetes,cicd,linux,scripting"
+UI/UX Engineer,"A specialized frontend role that focuses on implementing the visual and interactive elements of a design, ensuring a seamless user experience. Blends coding with a strong design sense.","react,css,figma,prototyping,usability,javascript"
+Product Manager (Technical),"Defines the 'why' and 'what' of a product, acting as the bridge between business goals and the engineering team. Requires strong communication and organizational skills.","agile,scrum,roadmap,user stories,product strategy"
+Developer Advocate,"Engages with the developer community by creating content like tutorials, blog posts, and giving talks. A public-facing role that requires strong technical and communication skills.","public speaking,content creation,community,api,sdk"
+Solutions Engineer,"Works with potential customers to understand their technical requirements and demonstrate how the company's product can solve their problems. A blend of technical and sales skills.","pre-sales,solution architecture,communication,demo"

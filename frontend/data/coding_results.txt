@@ -1,0 +1,9 @@
+Coding Test Platform: LeetCode Assessment for BigTech Corp
+
+- Problem 1 (Easy - String Manipulation): Passed (15/15 points)
+- Problem 2 (Medium - UI Component State): Passed (25/25 points)
+- Problem 3 (Medium - Linked List Reversal): Failed (5/25 points) - Incorrect edge case handling.
+- Problem 4 (Hard - Dynamic Programming): Failed (0/35 points) - Timed out, solution was not optimal.
+
+Overall Score: 45/100
+Feedback: Strong performance on frontend and basic problems. Significant weakness in complex data structures and algorithms.

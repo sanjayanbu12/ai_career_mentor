@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langgraph
+weaviate-client>=3.26.7,<4.0.0
+langchain-google-genai
+langchain-community
+tiktoken
+pypdf
+python-docx
+pandas
+PyPDF2
+numpy

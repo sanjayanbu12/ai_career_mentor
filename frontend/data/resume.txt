@@ -1,0 +1,31 @@
+Sanjay Anbazhagan
+sanjay.a@email.com | (555) 123-4567 | linkedin.com/in/sanjaya | github.com/sanjaya
+
+---
+SUMMARY
+Aspiring Software Engineer with a strong passion for creating intuitive and beautiful user interfaces. Proficient in frontend technologies like React and CSS, with a history of building well-received personal projects. Eager to apply my skills in a professional setting but struggling with backend-focused technical interviews. Seeking a role that leverages my design and frontend development strengths.
+
+---
+SKILLS
+- Languages: JavaScript, HTML, CSS, Python (Beginner)
+- Frameworks: React.js, Node.js (Basic), Express (Basic)
+- Tools: Git, VS Code, Figma, Docker (Beginner)
+- Soft Skills: Strong visual design sense, team collaboration, written communication.
+
+---
+PROJECTS
+1.  Portfolio Website (React)
+    - A fully responsive personal portfolio showcasing my projects.
+    - Praised for its clean UI and smooth animations.
+
+2.  E-commerce Store UI (Figma & React)
+    - Designed and built the frontend for a mock e-commerce site.
+    - Focused on user experience and component reusability.
+
+---
+EDUCATION
+B.Tech in Computer Science - ABC University (2021 - 2025)
+
+---
+ACHIEVEMENTS
+- Winner, Best UI/UX Award at ABC University Hackathon 2024.
