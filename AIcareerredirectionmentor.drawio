@@ -1,0 +1,174 @@
+<mxfile host="app.diagrams.net" modified="2025-06-20T00:00:00.000Z" agent="5.0" version="24.5.4" type="device">
+  <diagram name="AI Career Mentor Architecture" id="architecture-diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- User Layer -->
+        <mxCell id="2" value="USER LAYER" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="1100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="User Uploads Documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2">
+          <mxGeometry x="80" y="30" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Views Dashboard Results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="2">
+          <mxGeometry x="870" y="30" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Frontend Layer -->
+        <mxCell id="5" value="FRONTEND LAYER (React.js)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="1100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="File Upload Component" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5">
+          <mxGeometry x="80" y="30" width="150" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Results Dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5">
+          <mxGeometry x="870" y="30" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Backend Layer -->
+        <mxCell id="8" value="BACKEND LAYER (FastAPI + LangGraph)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="1100" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="API Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+          <mxGeometry x="80" y="35" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="LangGraph Workflow Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+          <mxGeometry x="400" y="35" width="300" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Response Handler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8">
+          <mxGeometry x="870" y="35" width="150" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- AI Agents Layer -->
+        <mxCell id="12" value="AI AGENTS LAYER (Sequential Pipeline)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="1100" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="1. Rejection Analyzer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="12">
+          <mxGeometry x="60" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="2. Strength Finder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="12">
+          <mxGeometry x="220" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="3. Career Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="12">
+          <mxGeometry x="380" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="4. Upskill Planner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="12">
+          <mxGeometry x="540" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="5. Support Matcher" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="12">
+          <mxGeometry x="700" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- AI Services Layer -->
+        <mxCell id="18" value="AI AND DATA SERVICES LAYER" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="1100" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="Google Gemini LLM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="18">
+          <mxGeometry x="80" y="40" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Weaviate Vector DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="18">
+          <mxGeometry x="280" y="40" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="LangChain Tools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="18">
+          <mxGeometry x="480" y="40" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Career Database CSV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="18">
+          <mxGeometry x="680" y="40" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="Support Network DB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="18">
+          <mxGeometry x="880" y="40" width="150" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Flow Arrows -->
+        <mxCell id="24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="6" target="9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="10" target="13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="15" target="20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="14" target="19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="11" target="7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="7" target="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Agent Sequential Flow -->
+        <mxCell id="33" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="14" target="15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="15" target="16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;strokeColor=#9673a6;" edge="1" parent="1" source="16" target="17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="sourcePoint"/>
+            <mxPoint x="550" y="350" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Title -->
+        <mxCell id="37" value="AI Career Redirection Mentor - System Architecture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="400" height="30" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
